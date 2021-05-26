@@ -11,4 +11,5 @@ func main() {
 	fmt.Println("Hello to the world")
 	fmt.Println(morestrings.ReverseRunes("oG olleH"))
 	fmt.Println(cmp.Diff("Hello to the world", "Hello Go"))
+	fmt.Println(morestrings.Exclaim("Hello"))
 }
